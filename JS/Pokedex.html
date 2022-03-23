@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="Plantilla_Pokedex.css">
+</head>
+<body style="background-color: rgb(0, 0, 46);">
+    <div class="container">
+        <img src="./pokedex.jpg" alt="pokedex" id="PokeDex" class="fondo">
+        <button class="button" onclick="fetchPokemon()">Cambiar<br>Pokemon</button>
+        <input type="text" class="text_input" placeholder="Ingresa el nombre de un pokemon..." id="pokeName" name="pokename"><br><br>
+        <img src="./pokebola.png" alt="pokemon" class="pokeball" id="pokeImg"><br><br> 
+        <div class="name"></div>
+        <div class="hp"></div>
+        <div class="atk"></div>
+        <div class="dfs"></div>
+        <div class="satk"></div>
+        <div class="sdfs"></div>
+        <div class="spd"></div>
+        <h1 class="HP"></h1>
+        <h1 class="attack"></h1>
+        <h1 class="defense"></h1>
+        <h1 class="spec_attack"></h1>
+        <h1 class="spec_defense"></h1>
+        <h1 class="speed"></h1>
+    </div>
+
+
+    <!--<h1>Pokedex</h1>
+    <input type="text" placeholder="pikachu" id="pokeName" name="pokename"><br><br>
+    <img src="./pokebola.png" alt="pokemon" idth="300px" id="pokeImg"><br><br>
+    <button onclick="fetchPokemon()">Cambiar Pokemon</button>-->
+
+</body>
+<footer>
+    <script src="./Pokedex.js"></script>
+</footer>
+</html>

@@ -1,0 +1,193 @@
+.fondo{
+    background-image: url("./pokedex.png");
+    height: 950px;
+    width:  1000px;
+    top: 25px;
+    left: 25px;
+    align-items: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.container{
+    background-color: navy;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    height: 1000px;
+    width: 1050px;
+}
+
+.button {
+    display: inline-block;
+    padding: 16px 19px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #178d1b;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: relative;
+    left: 167px;
+    top: -180px;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #178d1b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+
+  .text_input{
+      position: relative;
+      left: 470px;
+      top: -142px;
+      height: 60px;
+      width: 380px;
+      background-color: black;
+      color: white;
+      font-size: 22px;
+      border-radius: 10px;
+      border: 2px solid grey;
+  }
+
+  .pokeball{
+    width: 170px;
+    position: relative;
+    top: -690px;
+    left: 180px;
+  }
+
+  .name{
+      position: relative;
+      top: -890px;
+      left: 700px;
+      color: white;
+      font-size: 32px;
+  }
+
+  .hp{
+    position: relative;
+    top: -572px;
+    left: 682px;
+    width: 35px;
+    height: 25px;
+    color: black;
+    font-size: 22px;
+  }
+
+  .atk{
+    position: relative;
+    top: -740px;
+    left: 630px;
+    width: 35px;
+    height: 25px;
+    color: white;
+    font-size: 22px;
+  }
+
+  .dfs{
+    position: relative;
+    top: -765px;
+    left: 700px;
+    width: 35px;
+    height: 25px;
+    color: white;
+    font-size: 22px;
+  }
+
+  .satk{
+    position: relative;
+    top: -792px;
+    left: 775px;
+    width: 35px;
+    height: 25px;
+    color: white;
+    font-size: 22px;
+  }
+
+  .sdfs{
+    position: relative;
+    top: -817px;
+    left: 850px;
+    width: 35px;
+    height: 25px;
+    color: white;
+    font-size: 22px;
+  }
+
+  .spd{
+    position: relative;
+    padding: 0px;
+    top: -842px;
+    left: 918px;
+    width: 35px;
+    height: 25px;
+    color: white;
+    font-size: 22px;
+  }
+
+  .HP{
+    position: relative;
+    top: -738px;
+    left: 618px;
+    color: black;
+    font-size: 22px;
+  }
+
+  .attack{
+    position: relative;
+    top: -970px;
+    left: 608px;
+    width: 35px;
+    height: 25px;
+    color: white;
+    font-size: 15px;
+  }
+
+  .defense{
+    position: relative;
+    top: -1003px;
+    left: 685px;
+    width: 35px;
+    height: 25px;
+    color: white;
+    font-size: 13px;
+  }
+
+  .spec_attack{
+    position: relative;
+    top: -1043px;
+    left: 764px;
+    width: 35px;
+    height: 25px;
+    color: white;
+    font-size: 12px;
+  }
+
+  .spec_defense{
+    position: relative;
+    top: -1075px;
+    left: 835px;
+    width: 35px;
+    height: 25px;
+    color: white;
+    font-size: 12px;
+  }
+
+  .speed{
+    position: relative;
+    top: -1105px;
+    left: 905px;
+    width: 35px;
+    height: 25px;
+    color: white;
+    font-size: 16px;
+  }
